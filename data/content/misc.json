@@ -1,0 +1,127 @@
+{
+  "typewriterRoles": [
+    "Penetration Tester",
+    "Security Researcher",
+    "CTF Player",
+    "Full-Stack Developer",
+    "Network Architect",
+    "AI/ML Enthusiast"
+  ],
+  "stats": [
+    { "value": 10, "suffix": "+", "label": "Projects Built", "color": "text-cyber-green" },
+    { "value": 50, "suffix": "K+", "label": "Lines of Code", "color": "text-cyber-cyan" },
+    { "value": 10, "suffix": "+", "label": "CTFs Competed", "color": "text-cyber-amber" },
+    { "value": 3, "suffix": "+", "label": "Years in Security", "color": "text-cyber-magenta" }
+  ],
+  "aboutStats": [
+    { "label": "REPOS", "value": "25+", "color": "text-cyber-green" },
+    { "label": "LANGUAGES", "value": "6+", "color": "text-cyber-cyan" },
+    { "label": "CTFs PLAYED", "value": "10+", "color": "text-cyber-amber" },
+    { "label": "WPM SPEED", "value": "80", "color": "text-cyber-green" }
+  ],
+  "codeSnippets": [
+    {
+      "title": "ghostnet_tunnel.py",
+      "language": "python",
+      "project": "GhostNet",
+      "color": "text-cyber-green",
+      "lines": [
+        { "num": 1, "content": "from chacha20poly1305 import ChaCha20Poly1305", "type": "import" },
+        { "num": 2, "content": "", "type": "empty" },
+        { "num": 3, "content": "class DNSTunnel:", "type": "def" },
+        { "num": 4, "content": "    \"\"\"Covert data exfil via DNS queries\"\"\"", "type": "comment" },
+        { "num": 5, "content": "", "type": "empty" },
+        { "num": 6, "content": "    def __init__(self, domain, key):", "type": "def" },
+        { "num": 7, "content": "        self.cipher = ChaCha20Poly1305(key)", "type": "code" },
+        { "num": 8, "content": "        self.domain = domain", "type": "code" },
+        { "num": 9, "content": "        self.session_id = os.urandom(4).hex()", "type": "code" },
+        { "num": 10, "content": "", "type": "empty" },
+        { "num": 11, "content": "    def send_chunk(self, data, record=\"TXT\"):", "type": "def" },
+        { "num": 12, "content": "        nonce = os.urandom(12)", "type": "code" },
+        { "num": 13, "content": "        encrypted = self.cipher.encrypt(nonce, data)", "type": "code" },
+        { "num": 14, "content": "        subdomain = b64encode(encrypted).decode()", "type": "code" },
+        { "num": 15, "content": "        query = f\"{subdomain}.{self.domain}\"", "type": "highlight" },
+        { "num": 16, "content": "        dns.query.udp(dns.message.make_query(", "type": "code" },
+        { "num": 17, "content": "            query, record), \"8.8.8.8\")", "type": "code" }
+      ]
+    },
+    {
+      "title": "sentinel_detector.go",
+      "language": "go",
+      "project": "SentinelHunt",
+      "color": "text-cyber-cyan",
+      "lines": [
+        { "num": 1, "content": "package detector", "type": "code" },
+        { "num": 2, "content": "", "type": "empty" },
+        { "num": 3, "content": "type ThreatEngine struct {", "type": "def" },
+        { "num": 4, "content": "    models    map[string]MLModel", "type": "code" },
+        { "num": 5, "content": "    explainer *shap.Explainer", "type": "code" },
+        { "num": 6, "content": "    alertCh   chan<- Alert", "type": "code" },
+        { "num": 7, "content": "}", "type": "code" },
+        { "num": 8, "content": "", "type": "empty" },
+        { "num": 9, "content": "func (e *ThreatEngine) Analyze(pkt Packet) {", "type": "def" },
+        { "num": 10, "content": "    features := e.extractFeatures(pkt)", "type": "code" },
+        { "num": 11, "content": "    score := e.models[\"anomaly\"].Predict(features)", "type": "highlight" },
+        { "num": 12, "content": "", "type": "empty" },
+        { "num": 13, "content": "    if score > e.threshold {", "type": "code" },
+        { "num": 14, "content": "        explanation := e.explainer.Explain(features)", "type": "code" },
+        { "num": 15, "content": "        e.alertCh <- Alert{", "type": "code" },
+        { "num": 16, "content": "            Severity: classifySeverity(score),", "type": "code" },
+        { "num": 17, "content": "            SHAP:     explanation,", "type": "highlight" },
+        { "num": 18, "content": "        }", "type": "code" },
+        { "num": 19, "content": "    }", "type": "code" },
+        { "num": 20, "content": "}", "type": "code" }
+      ]
+    },
+    {
+      "title": "kalp_pentest.rs",
+      "language": "rust",
+      "project": "KALP_AI",
+      "color": "text-cyber-magenta",
+      "lines": [
+        { "num": 1, "content": "#[tauri::command]", "type": "comment" },
+        { "num": 2, "content": "async fn run_scan(target: &str) -> Result<Report> {", "type": "def" },
+        { "num": 3, "content": "    let slm = SLMEngine::load(\"pentesting-v2\")?;", "type": "code" },
+        { "num": 4, "content": "    let recon = slm.analyze_target(target).await?;", "type": "highlight" },
+        { "num": 5, "content": "", "type": "empty" },
+        { "num": 6, "content": "    let mut chain = AttackChain::new();", "type": "code" },
+        { "num": 7, "content": "    for vuln in recon.vulnerabilities {", "type": "code" },
+        { "num": 8, "content": "        let exploit = slm.suggest_exploit(&vuln);", "type": "highlight" },
+        { "num": 9, "content": "        chain.add_phase(exploit);", "type": "code" },
+        { "num": 10, "content": "    }", "type": "code" },
+        { "num": 11, "content": "", "type": "empty" },
+        { "num": 12, "content": "    let results = chain.execute().await?;", "type": "code" },
+        { "num": 13, "content": "    Ok(Report::generate(results, CVSSv3))", "type": "code" },
+        { "num": 14, "content": "}", "type": "code" }
+      ]
+    }
+  ],
+  "availabilityBanner": {
+    "title": "OPEN TO OPPORTUNITIES",
+    "description": "Currently seeking internships and collaborations in offensive security, red teaming, and AI-driven security research. Available for remote & Bengaluru-based roles.",
+    "tags": ["Internship", "Red Team", "Security Research", "Full-Stack", "Remote"],
+    "isAvailable": true
+  },
+  "stockTicker": [
+    { "ticker": "$HACK", "price": 47.82, "change": 2.14, "pct": 4.7 },
+    { "ticker": "$CYBR", "price": 312.50, "change": 5.30, "pct": 1.7 },
+    { "ticker": "$CRWD", "price": 289.15, "change": -3.42, "pct": -1.2 },
+    { "ticker": "$PANW", "price": 178.90, "change": 1.88, "pct": 1.1 },
+    { "ticker": "$ZS", "price": 225.60, "change": 4.20, "pct": 1.9 },
+    { "ticker": "$FTNT", "price": 92.33, "change": -0.77, "pct": -0.8 },
+    { "ticker": "$S", "price": 28.14, "change": 0.95, "pct": 3.5 },
+    { "ticker": "$BTC", "price": 67420, "change": 1240, "pct": 1.9 },
+    { "ticker": "$ETH", "price": 3580, "change": -45, "pct": -1.2 },
+    { "ticker": "$NET", "price": 98.50, "change": 2.10, "pct": 2.2 }
+  ],
+  "typingTestSentences": [
+    "The quick brown fox jumps over the lazy dog near the riverbank.",
+    "Security is not a product but a process of continuous improvement.",
+    "Every exploit begins with a single misplaced trust boundary in code.",
+    "Packet analysis reveals the hidden conversations between machines.",
+    "A firewall is only as strong as its weakest configuration rule.",
+    "DNS tunneling hides data in plain sight within legitimate queries.",
+    "Zero-day vulnerabilities exist before anyone knows they are there.",
+    "Red teaming simulates real adversaries to find weaknesses in systems."
+  ]
+}

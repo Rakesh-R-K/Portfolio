@@ -1,0 +1,50 @@
+[
+  {
+    "year": "2021",
+    "title": "FIRST LINE OF CODE",
+    "description": "Started learning Python and fell in love with problem-solving. Built small automation scripts and explored how things work under the hood.",
+    "tags": ["Python", "Basics"],
+    "icon": "⌨️",
+    "color": "border-gray-600"
+  },
+  {
+    "year": "2022",
+    "title": "DISCOVERED CYBERSECURITY",
+    "description": "Attended my first CTF competition and got hooked. Started exploring Kali Linux, Wireshark, and the world of ethical hacking. No turning back.",
+    "tags": ["CTF", "Kali Linux", "Wireshark"],
+    "icon": "🔓",
+    "color": "border-cyber-green/40"
+  },
+  {
+    "year": "2023",
+    "title": "JOINED PES UNIVERSITY",
+    "description": "Started B.Tech in Computer Science & Engineering. Deep dive into networking, data structures, and system internals. Built first full-stack projects.",
+    "tags": ["B.Tech CSE", "PES University", "MERN Stack"],
+    "icon": "🎓",
+    "color": "border-cyber-cyan/40"
+  },
+  {
+    "year": "2024",
+    "title": "BUILDING OFFENSIVE TOOLS",
+    "description": "Created GhostNet (DNS tunneling framework), ForenScope (forensics toolkit), and the Port Knocking Authentication system. Started contributing to offensive security.",
+    "tags": ["GhostNet", "ForenScope", "Port Knocking"],
+    "icon": "🛡️",
+    "color": "border-cyber-amber/40"
+  },
+  {
+    "year": "2025",
+    "title": "AI MEETS SECURITY",
+    "description": "Built KALP_AI (SLM-driven pentesting) and SentinelHunt (AI threat hunting with SHAP). Bridging the gap between AI/ML and offensive security. Active CTF player and open-source contributor.",
+    "tags": ["KALP_AI", "SentinelHunt", "AI4Kali", "SHAP"],
+    "icon": "🧠",
+    "color": "border-cyber-magenta/40"
+  },
+  {
+    "year": "NEXT",
+    "title": "WHAT'S COMING",
+    "description": "Targeting OSCP certification, security research publications, building a personal lab, and looking for red team / offensive security internships.",
+    "tags": ["OSCP", "Red Team", "Research"],
+    "icon": "🚀",
+    "color": "border-cyber-green"
+  }
+]

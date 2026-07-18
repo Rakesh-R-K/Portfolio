@@ -1,0 +1,52 @@
+{
+  "name": "RAKESH R K",
+  "handle": "RAKESH_RK",
+  "title": "OFFENSIVE ARCHITECT",
+  "subtitle": "DESIGNING DIGITAL FORTRESSES BY DAY, DECONSTRUCTING THEM BY NIGHT.",
+  "tagline": "VULNERABILITY RESEARCHER • CREATIVE DEV • CTF PLAYER",
+  "email": "rakeshrk.pes@gmail.com",
+  "university": "PES University",
+  "degree": "B.Tech Computer Science & Engineering",
+  "year": "2023–2027",
+  "semester": "6th Semester",
+  "gpa": "7.7",
+  "focus": "Cybersecurity & Networking",
+  "typingSpeed": 80,
+  "location": {
+    "city": "Bengaluru",
+    "country": "India",
+    "lat": "12.9716",
+    "lng": "77.5946",
+    "timezone": "IST"
+  },
+  "links": {
+    "github": "https://github.com/Rakesh-R-K",
+    "linkedin": "https://www.linkedin.com/in/rakesh-r-k-33a116330/",
+    "twitter": "https://x.com/RakeshR71871260",
+    "medium": "https://medium.com/@8055.rakeshrk",
+    "reddit": "https://www.reddit.com/user/_RoRoNoA_ZoRo_1829/",
+    "quora": "https://www.quora.com/profile/Rakesh-R-K-10",
+    "email": "8055.rakeshrk@gmail.com"
+  },
+  "bio": [
+    "Cybersecurity engineer in the making - specializing in offensive security, network forensics, and AI-driven security tools.",
+    "Active CTF player & security researcher with a passion for red-teaming. I treat CTFs like digital treasure hunts.",
+    "Building stealth systems and breaking things to make them stronger - from DNS tunneling frameworks to AI pentesting tools.",
+    "Network security & packet analysis specialist with expertise in Cisco networking, Linux internals, and cryptography."
+  ],
+  "philosophy": "\"Security is not a product, but a process.\" - Bruce Schneier",
+  "focusAreas": [
+    "Penetration Testing & CTFs",
+    "Network Security & Packet Analysis",
+    "Linux & System Internals",
+    "Secure Authentication & Cryptography",
+    "AI-Assisted Security Tools"
+  ],
+  "careerGoals": [
+    "Secure a role in offensive security / red team operations",
+    "Contribute to open-source security tooling",
+    "Earn OSCP and pursue advanced certifications",
+    "Build a security research lab & publish CVE findings",
+    "Bridge the gap between creative web dev and cybersecurity"
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "projects": [
+    {
+      "id": "kalp-ai",
+      "name": "KALP_AI",
+      "type": "AI PENTESTING",
+      "classification": "LEVEL: CLASSIFIED",
+      "team": "RED_TEAM",
+      "status": "ACTIVE",
+      "description": "SLM-Driven Adaptive Cognitive Pentesting Framework. An AI-powered desktop application that performs intelligent automated penetration testing using small language models.",
+      "tech": [
+        "Tauri",
+        "React",
+        "TypeScript",
+        "Rust",
+        "SLM"
+      ],
+      "features": [
+        "Adaptive cognitive pentesting with SLM",
+        "Cross-platform desktop app (Tauri + Rust)",
+        "Automated vulnerability discovery",
+        "Intelligent attack chain generation",
+        "Real-time analysis dashboard"
+      ],
+      "github": "https://github.com/Rakesh-R-K/kalp_ai",
+      "icon": "brain"
+    },
+    {
+      "id": "sentinelhunt",
+      "name": "SENTINEL_HUNT",
+      "type": "THREAT HUNTING",
+      "classification": "LEVEL: SOC-GRADE",
+      "team": "BLUE_TEAM",
+      "status": "ACTIVE",
+      "description": "AI-assisted zero-day network threat hunting platform using behavioral anomaly detection and explainable AI (SHAP). Detects DNS tunneling, C2 beaconing, port scanning, and data exfiltration without signatures.",
+      "tech": [
+        "Go",
+        "Python",
+        "React",
+        "Node.js",
+        "SHAP",
+        "TypeScript"
+      ],
+      "features": [
+        "Zero-day detection without signatures",
+        "DNS tunneling & C2 beaconing detection",
+        "SHAP-powered explainable AI alerts",
+        "Campaign detection & timeline reconstruction",
+        "SOC-grade severity classification",
+        "Alert aggregation & entity correlation"
+      ],
+      "github": "https://github.com/Rakesh-R-K/SentinelHunt",
+      "icon": "radar"
+    },
+    {
+      "id": "ghostnet",
+      "name": "GHOST_NET",
+      "type": "DNS TUNNELING",
+      "classification": "LEVEL: CLASSIFIED",
+      "team": "RED_TEAM",
+      "status": "ACTIVE",
+      "description": "Stealthy enterprise-grade DNS tunneling framework. Covert file transfer using ChaCha20-Poly1305 authenticated encryption, protocol diversification (A/TXT records), randomized mode, and micro-delays for evasion.",
+      "tech": [
+        "Python",
+        "DNS",
+        "ChaCha20-Poly1305",
+        "Docker",
+        "structlog"
+      ],
+      "features": [
+        "ChaCha20-Poly1305 authenticated encryption",
+        "A record & TXT record protocol diversification",
+        "Randomized mode to bypass signature detection",
+        "Configurable jitter & micro-delays",
+        "Session lifecycle management (Session Reaper)",
+        "Docker deployment with structured JSON logging"
+      ],
+      "github": "https://github.com/Rakesh-R-K/Ghostnet",
+      "icon": "ghost",
+      "invisible": true
+    },
+    {
+      "id": "forenscope",
+      "name": "FOREN_SCOPE",
+      "type": "DIGITAL FORENSICS",
+      "classification": "LEVEL: INCIDENT_RESPONSE",
+      "team": "BLUE_TEAM",
+      "status": "OPERATIONAL",
+      "description": "Lightweight modular digital forensic toolkit for CTFs, incident response, and malware analysis. Identifies file types, computes cryptographic hashes, detects embedded payloads, extracts metadata, and generates forensic reports.",
+      "tech": [
+        "Python",
+        "Bash",
+        "Steganography",
+        "Cryptography"
+      ],
+      "features": [
+        "Automated flag extraction for CTFs",
+        "File type identification & hash computation",
+        "Embedded payload & steganography detection",
+        "Metadata extraction & analysis",
+        "Structured forensic report generation",
+        "Master script - one command does everything"
+      ],
+      "github": "https://github.com/Rakesh-R-K/Forenscope",
+      "icon": "scope"
+    },
+    {
+      "id": "ai4kali",
+      "name": "AI4KALI",
+      "type": "AI AUTOMATION",
+      "classification": "LEVEL: TOOLKIT",
+      "team": "RED_TEAM",
+      "status": "ACTIVE",
+      "description": "AI-assisted command generation toolkit for Kali Linux. Uses AI to translate natural language into security commands, eliminating the need to memorize complex tool syntax.",
+      "tech": [
+        "Python",
+        "AI/LLM",
+        "Kali Linux",
+        "Bash"
+      ],
+      "features": [
+        "Natural language to Kali command translation",
+        "Context-aware command suggestions",
+        "Support for multiple security tools",
+        "Interactive shell integration"
+      ],
+      "github": "https://github.com/Rakesh-R-K/ai4kali",
+      "icon": "terminal"
+    },
+    {
+      "id": "portknock",
+      "name": "PORT_KNOCK",
+      "type": "STEALTH AUTH",
+      "classification": "FILE NUMBER: 42.8.1700",
+      "team": "DEFENSIVE",
+      "status": "OPERATIONAL",
+      "description": "Stealth authentication via port knocking. Hidden services protected by knockd with dynamic firewall rules, IP logging, and auto re-lock mechanisms.",
+      "tech": [
+        "knockd",
+        "iptables",
+        "Bash",
+        "Linux Security"
+      ],
+      "features": [
+        "Port sequence authentication",
+        "Dynamic iptables firewall rules",
+        "IP whitelist automation",
+        "Connection logging & audit trails",
+        "Auto-lock mechanisms with timeout"
+      ],
+      "github": "https://github.com/Rakesh-R-K/Port_Knocking_Authentication_System",
+      "icon": "lock"
+    },
+    {
+      "id": "stockerx",
+      "name": "STOCKER_X",
+      "type": "MERN APP",
+      "classification": "LEVEL: PUBLIC",
+      "team": "FULL_STACK",
+      "status": "DEPLOYED",
+      "description": "MERN stack interactive stock trading platform with real-time market data, GSAP animations, search/filter functionality, and responsive design.",
+      "tech": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "GSAP",
+        "Vite"
+      ],
+      "features": [
+        "Real-time stock price fetching",
+        "GSAP-powered smooth animations",
+        "Search & filter stocks",
+        "Interactive charting & analysis",
+        "Responsive mobile-first design"
+      ],
+      "github": "https://github.com/Rakesh-R-K/StockerX",
+      "icon": "chart"
+    },
+    {
+      "id": "campus-network",
+      "name": "CAMPUS_NET",
+      "type": "NETWORK DESIGN",
+      "classification": "LEVEL: INFRASTRUCTURE",
+      "team": "NETWORK_OPS",
+      "status": "DEPLOYED",
+      "description": "University campus network designed in Cisco Packet Tracer with 50+ nodes, VLAN segmentation, DNS/DHCP/HTTPS services, SMTP email, and inter-VLAN routing across departments.",
+      "tech": [
+        "Cisco",
+        "VLAN",
+        "DNS",
+        "DHCP",
+        "Packet Tracer"
+      ],
+      "features": [
+        "50+ node enterprise network",
+        "VLAN segmentation across departments",
+        "DNS, DHCP & HTTPS services",
+        "Inter-VLAN routing configuration",
+        "SMTP email for select nodes"
+      ],
+      "github": "https://github.com/Rakesh-R-K/University-Campus-Network",
+      "icon": "network"
+    },
+    {
+      "id": "ipchanger",
+      "name": "IP_CHANGER",
+      "type": "PRIVACY TOOL",
+      "classification": "LEVEL: ANONYMITY",
+      "team": "OPSEC",
+      "status": "ACTIVE",
+      "description": "Tor-based IP rotation with encrypted logging. Automation-focused privacy utility emphasizing anonymity and operational security.",
+      "tech": [
+        "Python",
+        "Tor",
+        "Encryption",
+        "Automation"
+      ],
+      "features": [
+        "Automated IP rotation via Tor",
+        "Encrypted activity logs",
+        "Privacy-first architecture",
+        "OpSec automation"
+      ],
+      "github": "https://github.com/Rakesh-R-K/IP-Changer-with-Encrypted-Current-IP",
+      "icon": "shuffle",
+      "scrambleIP": true
+    }
+  ],
+  "additionalProjects": [
+    {
+      "name": "Writeups_CTF",
+      "description": "Collection of CTF challenge writeups and solutions",
+      "tech": [
+        "Security",
+        "CTF"
+      ],
+      "github": "https://github.com/Rakesh-R-K/Writeups_CTF"
+    },
+    {
+      "name": "c0lddbox",
+      "description": "Complete VulnHub penetration testing report - c0lddbox machine",
+      "tech": [
+        "Penetration Testing",
+        "VulnHub"
+      ],
+      "github": "https://github.com/Rakesh-R-K/c0lddbox"
+    },
+    {
+      "name": "OWASP Top 10",
+      "description": "Security notes with practical demonstrations of OWASP Top 10 vulnerabilities",
+      "tech": [
+        "Web Security",
+        "OWASP"
+      ],
+      "github": "https://github.com/Rakesh-R-K/OWASP-top-10"
+    },
+    {
+      "name": "Online Streaming Platform",
+      "description": "Database management system project emulating a video-on-demand service",
+      "tech": [
+        "DBMS",
+        "SQL"
+      ],
+      "github": "https://github.com/Rakesh-R-K/Online_Streaming_Platform"
+    },
+    {
+      "name": "Python Lexer & Parser",
+      "description": "Custom lexer and parser implementation for Python language constructs",
+      "tech": [
+        "Python",
+        "Compilers"
+      ],
+      "github": "https://github.com/Rakesh-R-K/Python-Lexer-and-Parser"
+    },
+    {
+      "name": "RideShare Manager",
+      "description": "Ride-sharing management application",
+      "tech": [
+        "Full Stack"
+      ],
+      "github": "https://github.com/Rakesh-R-K/RideShare-manager"
+    },
+    {
+      "name": "E-Commerce Platform",
+      "description": "Full-featured e-commerce web application",
+      "tech": [
+        "Web Dev"
+      ],
+      "github": "https://github.com/Rakesh-R-K/E-Commerce-Platform"
+    }
+  ]
+}

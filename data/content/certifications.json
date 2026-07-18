@@ -1,0 +1,56 @@
+[
+  {
+    "icon": "🏆",
+    "title": "CTF Competitor",
+    "detail": "Active in national & international Capture The Flag tournaments",
+    "stat": "10+",
+    "statLabel": "CTFs",
+    "color": "text-cyber-amber",
+    "borderColor": "border-cyber-amber/15"
+  },
+  {
+    "icon": "🔐",
+    "title": "OWASP Top 10 Trained",
+    "detail": "Practical demonstrations of all 10 vulnerability categories",
+    "stat": "10/10",
+    "statLabel": "Covered",
+    "color": "text-cyber-magenta",
+    "borderColor": "border-cyber-magenta/15"
+  },
+  {
+    "icon": "🌐",
+    "title": "Network Architect",
+    "detail": "Enterprise campus network with 50+ nodes, VLANs, and multi-service infrastructure",
+    "stat": "50+",
+    "statLabel": "Nodes",
+    "color": "text-cyber-cyan",
+    "borderColor": "border-cyber-cyan/15"
+  },
+  {
+    "icon": "🐧",
+    "title": "Linux Power User",
+    "detail": "Daily driver: Kali Linux. Deep experience with system internals, kernel modules, and bash scripting",
+    "stat": "3+",
+    "statLabel": "Years",
+    "color": "text-cyber-green",
+    "borderColor": "border-cyber-green/15"
+  },
+  {
+    "icon": "🤖",
+    "title": "AI/ML Security",
+    "detail": "SHAP explainability, SLM integration, anomaly detection for threat hunting",
+    "stat": "2",
+    "statLabel": "AI Tools",
+    "color": "text-purple-400",
+    "borderColor": "border-purple-400/15"
+  },
+  {
+    "icon": "📝",
+    "title": "Technical Writer",
+    "detail": "CTF writeups, vulnerability reports, and security research documentation on Medium",
+    "stat": "5+",
+    "statLabel": "Articles",
+    "color": "text-teal-400",
+    "borderColor": "border-teal-400/15"
+  }
+]

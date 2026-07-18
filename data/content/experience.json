@@ -1,0 +1,57 @@
+{
+  "education": [
+    {
+      "period": "2023 - 2027",
+      "degree": "B.Tech Computer Science & Engineering",
+      "institution": "PES University, Bengaluru",
+      "focus": "Cybersecurity & Networking",
+      "gpa": "7.7 CGPA",
+      "highlights": [
+        "Network Security Lab",
+        "CTF Club Member",
+        "Offensive Security Research Group"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "period": "2025 - Present",
+      "role": "Independent Security Researcher",
+      "org": "Self",
+      "type": "RESEARCH",
+      "description": "Building open-source offensive security tools. Published GhostNet (DNS tunneling framework), KALP_AI (AI pentesting), and SentinelHunt (threat hunting).",
+      "tech": [
+        "Python",
+        "Go",
+        "Rust",
+        "React"
+      ]
+    },
+    {
+      "period": "2024 - Present",
+      "role": "Active CTF Competitor",
+      "org": "Various Platforms",
+      "type": "COMPETITIONS",
+      "description": "Competing in CTF events across reverse engineering, forensics, web exploitation, and cryptography categories.",
+      "tech": [
+        "RE",
+        "Forensics",
+        "Web Exploit",
+        "Crypto"
+      ]
+    },
+    {
+      "period": "2023 - Present",
+      "role": "Open Source Contributor",
+      "org": "GitHub",
+      "type": "OPEN SOURCE",
+      "description": "Contributing to security tools and frameworks. Maintaining 10+ repositories with focus on AI-assisted security and network analysis.",
+      "tech": [
+        "React",
+        "TypeScript",
+        "Docker",
+        "CI/CD"
+      ]
+    }
+  ]
+}

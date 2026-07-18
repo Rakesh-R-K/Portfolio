@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" fill="#0a0a0a"/>
+  <rect x="1" y="1" width="30" height="30" fill="none" stroke="#00ff41" stroke-width="0.5" opacity="0.3"/>
+  <text x="16" y="22" font-family="monospace" font-weight="900" font-size="16" fill="#00ff41" text-anchor="middle" letter-spacing="-1">RK</text>
+  <rect x="3" y="26" width="26" height="1" fill="#00ff41" opacity="0.4"/>
+</svg>

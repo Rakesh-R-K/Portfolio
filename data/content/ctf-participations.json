@@ -1,0 +1,102 @@
+[
+  {
+    "id": "ctf-1",
+    "name": "PicoCTF 2024",
+    "platform": "picoCTF",
+    "date": "2024-03",
+    "placement": "Top 15%",
+    "teamName": "Solo",
+    "teamSize": 1,
+    "totalPoints": 4200,
+    "solvedChallenges": 28,
+    "totalChallenges": 45,
+    "categories": ["Web Exploitation", "Forensics", "Cryptography", "Reverse Engineering", "Binary Exploitation"],
+    "highlights": [
+      "Solved all forensics challenges",
+      "Custom tool for automated flag extraction"
+    ],
+    "writeupUrl": "",
+    "difficulty": "BEGINNER-INTERMEDIATE",
+    "status": "COMPLETED"
+  },
+  {
+    "id": "ctf-2",
+    "name": "TryHackMe Advent of Cyber 2024",
+    "platform": "TryHackMe",
+    "date": "2024-12",
+    "placement": "Completed",
+    "teamName": "Solo",
+    "teamSize": 1,
+    "totalPoints": 2500,
+    "solvedChallenges": 25,
+    "totalChallenges": 25,
+    "categories": ["Web", "OSINT", "Forensics", "Crypto", "Malware Analysis"],
+    "highlights": [
+      "100% completion rate",
+      "All 25 days completed on time"
+    ],
+    "writeupUrl": "",
+    "difficulty": "BEGINNER",
+    "status": "COMPLETED"
+  },
+  {
+    "id": "ctf-3",
+    "name": "HackTheBox University CTF 2024",
+    "platform": "HackTheBox",
+    "date": "2024-11",
+    "placement": "Top 30%",
+    "teamName": "PES Security",
+    "teamSize": 4,
+    "totalPoints": 3800,
+    "solvedChallenges": 15,
+    "totalChallenges": 30,
+    "categories": ["Pwn", "Web", "Crypto", "RE", "Misc"],
+    "highlights": [
+      "Led the web exploitation category",
+      "Solved 2 hard-rated challenges"
+    ],
+    "writeupUrl": "",
+    "difficulty": "INTERMEDIATE-HARD",
+    "status": "COMPLETED"
+  },
+  {
+    "id": "ctf-4",
+    "name": "National Cyber Security CTF",
+    "platform": "CTFd",
+    "date": "2024-09",
+    "placement": "Top 20%",
+    "teamName": "CyberPES",
+    "teamSize": 3,
+    "totalPoints": 5200,
+    "solvedChallenges": 22,
+    "totalChallenges": 40,
+    "categories": ["Network Security", "Web Exploitation", "Steganography", "OSINT"],
+    "highlights": [
+      "First blood on 3 challenges",
+      "Network forensics specialist role"
+    ],
+    "writeupUrl": "",
+    "difficulty": "INTERMEDIATE",
+    "status": "COMPLETED"
+  },
+  {
+    "id": "ctf-5",
+    "name": "VulnHub Machines",
+    "platform": "VulnHub",
+    "date": "2024-ONGOING",
+    "placement": "N/A",
+    "teamName": "Solo",
+    "teamSize": 1,
+    "totalPoints": 0,
+    "solvedChallenges": 8,
+    "totalChallenges": 0,
+    "categories": ["Penetration Testing", "Privilege Escalation", "Enumeration"],
+    "highlights": [
+      "Completed c0lddbox with full writeup",
+      "Published detailed reports on Medium"
+    ],
+    "writeupUrl": "https://github.com/Rakesh-R-K/c0lddbox",
+    "difficulty": "INTERMEDIATE",
+    "status": "ONGOING"
+  }
+]

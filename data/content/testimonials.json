@@ -1,0 +1,30 @@
+[
+  {
+    "from": "PROF_SECURITY",
+    "role": "Cybersecurity Faculty, PES University",
+    "message": "Rakesh consistently demonstrates deep understanding of network security concepts. His projects go beyond academic requirements - GhostNet is genuinely impressive work for a student.",
+    "classification": "INTERCEPTED",
+    "signal": "STRONG"
+  },
+  {
+    "from": "CTF_TEAMMATE",
+    "role": "CTF Team Member",
+    "message": "Best person to have on your team for reverse engineering and forensics challenges. Always calm under pressure during competitions, and his automation scripts save us hours.",
+    "classification": "LOGGED",
+    "signal": "VERIFIED"
+  },
+  {
+    "from": "PEER_DEV",
+    "role": "Full-Stack Developer, Classmate",
+    "message": "His ability to bridge security and creative development is rare. The KALP_AI project showed me that pentesting tools can actually have a beautiful UI. Plus he types at 80+ WPM.",
+    "classification": "MONITORED",
+    "signal": "CLEAR"
+  },
+  {
+    "from": "MENTOR_ML",
+    "role": "AI/ML Research Group",
+    "message": "Integrating SHAP explainability into threat hunting was a novel approach. SentinelHunt is well-structured research that could be extended into a published paper with more data.",
+    "classification": "ENCRYPTED",
+    "signal": "CONFIRMED"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "cybersecurity": [
+    { "name": "Penetration Testing", "level": 85 },
+    { "name": "Network Security", "level": 90 },
+    { "name": "Packet Analysis", "level": 88 },
+    { "name": "Digital Forensics", "level": 82 },
+    { "name": "Stealth Auth Systems", "level": 92 },
+    { "name": "Threat Modeling", "level": 80 },
+    { "name": "CTF Challenges", "level": 87 },
+    { "name": "Cryptography", "level": 78 }
+  ],
+  "programming": [
+    { "name": "Python", "level": 92 },
+    { "name": "C / C++", "level": 85 },
+    { "name": "JavaScript/TypeScript", "level": 88 },
+    { "name": "Go", "level": 72 },
+    { "name": "Bash / Shell", "level": 85 },
+    { "name": "Rust", "level": 65 }
+  ],
+  "web": [
+    { "name": "React / Next.js", "level": 90 },
+    { "name": "Node.js / Express", "level": 88 },
+    { "name": "Three.js / 3D", "level": 85 },
+    { "name": "GSAP Animation", "level": 88 },
+    { "name": "Framer Motion", "level": 86 },
+    { "name": "Tauri / Desktop", "level": 75 }
+  ],
+  "tools": [
+    "Kali Linux", "Wireshark", "Burp Suite", "Metasploit",
+    "Git / GitHub", "Docker", "knockd", "Nmap",
+    "Cisco Packet Tracer", "Scapy", "TOR", "SHAP"
+  ]
+}
